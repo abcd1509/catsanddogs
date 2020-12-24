@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pure CSS Responsive Image Slider</title>
+<style type="text/css">
+  .row0 {
+         display:flex;
+         height:250px;
+         width:100%;
+  }
+  .row0 .col-01{color:black;
+                width:50%;
+                height:100%;
+                position:absolute;
+                left:6%;
+                top:20%;
+                text-style: bold;
+                }
+  .row0 .col-02 {position:absolute;
+                       padding:0;
+                       top:100px;
+                       right:0;
+
+                       height:50%;
+                       margin:0 0 20 0;
+  }
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure .row0 .col-02 img {
+	width: 100%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+</style>
+</head>
+<body>
+
+	<div id="slider">
+		<figure>
+      <div class="row0">
+
+
+           <div class="col-01">
+           <h1>Bringing health and happiness <br> to your furry friends!!!</h1>
+           <p>Give them the love and care they deserve.</p>
+           <a href="products.html" class="btn">Explore now &#x2192;</a>
+         </div>
+         <div class="col-02">
+           <img src="https://www.halifaxhumanesociety.org/zupload/library/153/-703-700x500-0.jpg?ztv=20190514142532" alt="">
+           <img src="img/desk2.png">
+           <img src="img/desk.png">
+           <img src="img/desk3.png">
+           <img src="img/desk.png">
+         </div>
+         <div class="row0">
+
+
+
+	</figure>
+</div>
+
+
+</body>
+</html>
