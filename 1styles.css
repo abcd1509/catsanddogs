@@ -1,0 +1,143 @@
+body{padding:0;
+     margin:0;
+     font-family: sans-serif;
+     overflow:hidden;}
+     *{margin:0;
+       padding:0;
+       box-sizing:border-box;}
+     body{font-family: 'Poppins', sans-serif;
+         }
+     .nav div{height:4px;
+              background-color:white;
+              margin:5px 10px;
+              border-radius:25px;}/*first value for top and bottom 2nd for left and right*/
+     .nav{width:30px;
+          display:white;
+          margin:20px 10px;
+          }
+    
+
+     .icon{height:30px;
+           width:30px;
+           margin:10px;
+           padding:0 5px 0 5px;
+         }
+     .nav:hover div{width:30px;}
+     .nav-sections{text-decoration: none;
+                   margin:5px 11px 5px 11px;
+                   font-size: 20px;
+                   padding:1%;
+                   color:white;}
+
+     .navbar{   left:0;
+                right:0;
+                top:0;
+                bottom:0;
+                height:12%;
+                position:fixed;
+                display:flex;
+                overflow:hidden;
+                background-color:#FF;
+                z-index:3;
+               }
+     .leftlogo{float:left;
+               width:20%;
+               margin:20px 90px 20px 50px;
+               padding:1%;
+               font-size:15px;
+             font-family: 'Meddon', cursive;
+             color:white;
+             }
+     .middlepart{float:center;
+                 font-size:15px;
+                 width:80%;
+                 padding:1%;
+               }
+     .middleandright a:hover{color:black;
+                           background-color:white;
+                           border-radius:5px;}
+     .rightpart{float:right;
+                height:10%;
+                width:40%;
+                margin-left:50px;
+                padding:1%;}
+     .middleandright{display:flex;
+                     margin-top:20px;
+                     margin-right: 25px;
+                     margin-bottom: 20px;
+                     margin-left: 25px;
+                     padding:1%;
+                     width:90%;
+
+                     }
+
+     .rightpart a img{padding:2%;
+                      display:inline-block;
+                      width:50px;}
+.banner1, .banner2, .banner3, .banner4{height:100vh;
+         width:100%;
+         position:absolute;
+         left:0;
+         top:0;}
+ img{width:100%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    z-index:-1;
+    animation: zoom-out 3s linear infinite;
+    }
+.text-box {width:600px;
+      position:absolute;
+      top:200px;
+      left:500px;
+      color:white;
+    }
+.text-box  h1{margin-bottom:40px;}
+.text-box  p{font-size:14px;}
+.text-box span{background:red;
+               height:1px;
+               width:100px;
+               position:absolute;
+               left:0;}
+.banner1{animation:slide1 12s linear infinite;}
+.banner2{animation:slide2 12s linear infinite;}
+.banner3{animation:slide3 12s linear infinite;}
+.banner4{animation:slide4 12s linear infinite;}
+@keyframes slide1{
+  0%{visibility:visible;}
+  25%{visibility: hidden;}
+  50%{visibility: hidden;}
+  75%{visibility: hidden;}
+  100%{visibility: visible;}
+
+
+}
+@keyframes slide2{
+  0%{visibility:hidden;}
+  25%{visibility: hidden;}
+  50%{visibility:visible;}
+  75%{visibility: hidden;}
+  100%{visibility:hidden;}
+}
+@keyframes slide3{
+    0%{visibility:hidden;}
+    25%{visibility: hidden;}
+    50%{visibility:hidden;}
+    75%{visibility:visible;}
+    100%{visibility:hidden;}
+
+
+}
+@keyframes slide4{
+    0%{visibility:hidden;}
+    25%{visibility: hidden;}
+    50%{visibility:hidden;}
+    75%{visibility:hidden;}
+    100%{visibility:visible;}
+
+
+}
+@keyframes zoom-out {
+100%{width:90%;}
+}

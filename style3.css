@@ -1,0 +1,249 @@
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+.nav div{height:4px;
+         background-color:black;
+         margin:5px 10px;
+         border-radius:25px;}/*first value for top and bottom 2nd for left and right*/
+.nav{width:30px;
+     display:black;
+     margin:20px 10px;
+     }
+.one{width:30px;
+     }
+.two{width:20px;
+     }
+.three{width:15px;
+    }
+
+.icon{height:30px;
+      width:30px;
+      margin:10px;
+      padding:0 5px 0 5px;
+    }
+.nav:hover div{width:30px;}
+.nav-sections{text-decoration: none;
+              margin:5px 11px 5px 11px;
+              font-size: 20px;
+              padding:1%;
+              color:black;}
+a:hover{}
+.dropdown{visibility:hidden;}
+.navbar{   left:0;
+           right:0;
+           top:0;
+           bottom:0;
+           height:12%;
+           position:fixed;
+           display:flex;
+           overflow:hidden;
+           background-color:white;
+           z-index:3;
+          }
+.leftlogo{float:left;
+          width:15%;
+          margin:20px 90px 20px 50px;
+          padding:1%;
+          font-size:15px;
+        }
+.middlepart{float:center;
+            font-size:15px;
+            width:80%;
+            padding:1%;
+            display:flex;
+          }
+.middleandright ul li a:hover{color:white;
+                      background-color:black;
+                      border-radius:5px;}
+.middlepart    ul{margin:0;
+                  padding:0;
+                  list-style:none;}
+                  ul li ul li {display:none;}
+                  ul li ul li ul li{display:none;}
+                  .middlepart ul li:hover ul li{display:block;}
+
+.rightpart{float:right;
+           height:10%;
+           width:40%;
+           margin-left:50px;
+           padding:1%;}
+.middleandright{display:flex;
+                margin-top:20px;
+                margin-right: 25px;
+                margin-bottom: 20px;
+                margin-left: 25px;
+                padding:1%;
+                width:90%;
+
+                }
+
+.rightpart a img{padding:2%;
+                 display:inline-block;
+                 width:50px;}
+.row1{height:80%;
+      width:100%;
+      position:absolute;
+      top:150px;
+      }
+.row1 .col-11{height:60%;
+              width:50%;
+              position:absolute;
+              left:20%;
+              border:7px solid black;
+              display:inline-block;
+              background-image:url(https://media.gettyimages.com/photos/time-to-play-picture-id173908793?k=6&m=173908793&s=612x612&w=0&h=-Tve7aM0o_zdMfh6_K7TZ417cgh3h3vKtrKtuc2KzC4=);
+              z-index:1;
+              }
+.row1 .col-12 {display:inline-block;
+               border:5px double black;
+               height:90%;
+               width:30%;
+               position:absolute;
+               left:65%;
+               top:100px;
+               z-index:0;
+             }
+.row1 .col-12 h1{display:inline-block;
+                 width:50%;
+                 margin:20px 10px 40px 20px;
+                 position:absolute;
+                 left:40%;
+                font-family: 'Luckiest Guy', cursive;
+                 font-size:30px;
+                 letter-spacing: 3px;
+                 word-spacing:10px;}
+.row1 .col-12 p{z-index:0;
+                position:absolute;
+                left:17%;
+                top:40%;
+                right:5%;
+                font-size:28px;
+                line-height:150%;
+                font-family: 'Satisfy', cursive;
+                }
+.row1 .col-12 .intro{width:80%;
+                     height:50%;
+                     }
+.row1 .col-13{display:inline-block;
+             border:5px double black;
+             height:70%;
+             width:40%;
+             top:400px;
+             position:absolute;
+            z-index:0;
+             left:20%;}
+
+.row1 .col-13 p{z-index:0;
+                margin:20px 70px 40px 30px;
+                left:20%;
+                font-family: 'Satisfy', cursive;
+                font-size:28px;
+                width:70%;
+                position:absolute;
+                top:20%;
+                left:3%;
+                word-spacing:10px;
+                 }
+
+.row1 .col-14{height:60%;
+              width:40%;
+              top:500px;
+              position:absolute;
+              left:50%;
+              background-image:url(https://media.gettyimages.com/photos/no-one-can-touch-him-picture-id157610291?k=6&m=157610291&s=612x612&w=0&h=RxtAb05hG7S0-UCr5lAP28L1zTuOZ-tZn1aH-1ods0U=);
+              border:7px solid black;
+              z-index:1;
+             }
+.row1 .col-15{width:100%;
+              height:50%;
+              background-color:#fcf876;
+              z-index:-1;}
+.row1 .col-16{width:100%;
+              height:50%;
+              position:absolute;
+              top:500px;
+              background-color:#b9ac92;
+              z-index:-1;}
+.row2{height:80%;
+     width:100%;
+     position:absolute;
+     top:1000px;}
+.col-1{display:inline-block;
+       background-image: url(https://media.gettyimages.com/photos/kitten-sitting-on-dog-picture-id979081604?k=6&m=979081604&s=612x612&w=0&h=jNkC0wcvzkvINPWS1hN9W1ns1pjyXiKpsfM6DPCqhlc=);
+       background-size: cover;
+        height:80%;
+       width:33.33%;}
+.col-3{display:inline-block;
+       background-image: url(https://media.gettyimages.com/photos/dog-and-cat-picture-id184920565?k=6&m=184920565&s=612x612&w=0&h=V8omKcEsm3aPUhALW2hjpVwF_kVH-7-yDcZekd20F7E=);
+       background-size: cover;
+       height:80%;
+       width:33.33%;
+       position:absolute;
+       top:0px;
+       left:66.66%;}
+.col-2{display:inline-block;
+       background-image: url(https://media.gettyimages.com/photos/dog-and-cat-picture-id151350785?k=6&m=151350785&s=612x612&w=0&h=AwCYGt4SLvXKSB0p8TtVq1tzur-5nG5pb-5QUBzD7lE=);
+       background-size: cover;
+       height:80%;
+       width:33.33%;
+       position:absolute;
+       top:0px;
+       left:33.33%;
+          }
+footer{position:absolute;
+        top:240%;
+        }
+.inner{ height:50%;
+        width:100%;
+        position:absolute;
+        background-color:#9ad3bc;
+        display:flex;
+        }
+.list1{display:inline-block;
+       position:absolute;
+       left:300px;
+       bottom:20px;
+       width:30px;
+      }
+.list2{display:inline-block;
+       position:absolute;
+       left:600px;
+       bottom:20px;
+       width:30px;
+
+       }
+.list3{display:inline-block;
+       position:absolute;
+       left:900px;
+       bottom:20px;
+       width:30px;
+
+          }
+
+/*FOOTER STYLING*/
+.footer{width:100%;
+        background:#000;
+        color:#8a8a8a;
+        font-size:14px;
+        padding:60px 0 20px;}
+.footer .row{display:flex;
+             }
+.footer p{color:#8a8a8a;}
+.footer h3{color:white;
+            margin-bottom:20px;}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+   min-width:250px;
+   margin-bottom:20px;
+}
+.footer-col-1{flex-basis: 30%;
+}
+
+.footer-col-2, .footer-col-3{flex-basis:12%;
+                             text-align:left;}
+.footer hr{
+           border: none;
+           background: #b5b5b5;
+           height:1px;
+           margin:20px o;
+}
+.footer .copyright{text-align:center;}

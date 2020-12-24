@@ -1,0 +1,710 @@
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+body{font-family: 'Poppins', sans-serif;
+    }
+/*NAVIGATION SECTION*/
+.icon{height:30px;
+      width:30px;
+      margin:10px;
+      padding:0 5px 0 5px;
+    }
+.nav:hover div{width:30px;}
+.nav-sections{text-decoration: none;
+              margin:5px 11px 5px 11px;
+              font-size: 20px;
+              padding:1%;
+              color:black;}
+
+.navbar{   left:0;
+           right:0;
+           top:0;
+           bottom:0;
+           height:12%;
+           position:fixed;
+           display:flex;
+           overflow:hidden;
+           background-color:white;
+           z-index:3;
+          }
+.leftlogo{float:left;
+          width:20%;
+          margin:20px 90px 20px 50px;
+          padding:1%;
+          font-size:15px;
+        font-family: 'Meddon', cursive;
+        color:black;
+        }
+.middlepart{float:center;
+            font-size:15px;
+            width:100%;
+            padding:1%;
+          }
+.middleandright a:hover{color:white;
+                      background-color:black;
+                      border-radius:5px;}
+.rightpart{float:right;
+           height:10%;
+           width:40%;
+           margin-left:50px;
+           padding:1%;}
+.middleandright{display:flex;
+                margin-top:20px;
+                margin-right: 25px;
+                margin-bottom: 20px;
+                margin-left: 25px;
+                padding:1%;
+                width:90%;
+
+                }
+
+.rightpart a img{padding:2%;
+                 display:inline-block;
+                 width:50px;}
+
+                 /*ANIMATION*/
+                 .banner{position:relative;
+                         top:150px;}
+
+                 .banner .banner1, .banner2, .banner3, .banner4{height:50vh;/*100vh;*/
+                          width:100%;
+                          position:absolute;
+                          top:700px;
+                          left:0;
+                          top:0;}
+                  .banner img{width:100%;
+                     position:absolute;
+                     left:50%;
+                     top:50%;
+                     transform: translate(-50%,-50%);
+                     z-index:-1;
+                     animation: zoom-out 3s linear infinite;
+                     }
+                 .text-box {width:600px;
+                       position:absolute;
+                       top:200px;
+                       left:450px;
+                       color:black;
+                     }
+                     .btn{display:inline-block;
+                          background-color: black;
+                          padding:8px 30px;
+                          margin:30px 0;
+                          border-radius:30px;
+                          color:white;
+                          transition:background 0.5s;
+                          text-decoration: none;}
+                     .btn:hover{background:#825959;}
+                 .text-box  h1{margin-bottom:40px;
+                               position:center;}
+                 .text-box  p{font-size:14px;}
+                 .text-box span{background:red;
+                                height:1px;
+                                width:100px;
+                                position:absolute;
+                                left:0;}
+                 .banner .banner1{animation:slide1 12s linear infinite;}
+                 .banner .banner2{animation:slide2 12s linear infinite;}
+                 .banner .banner3{animation:slide3 12s linear infinite;}
+                 .banner .banner4{animation:slide4 12s linear infinite;}
+                 @keyframes slide1{
+                   0%{visibility:visible;}
+                   25%{visibility: hidden;}
+                   50%{visibility: hidden;}
+                   75%{visibility: hidden;}
+                   100%{visibility: visible;}
+
+
+                 }
+                 @keyframes slide2{
+                   0%{visibility:hidden;}
+                   25%{visibility: hidden;}
+                   50%{visibility:visible;}
+                   75%{visibility: hidden;}
+                   100%{visibility:hidden;}
+                 }
+                 @keyframes slide3{
+                     0%{visibility:hidden;}
+                     25%{visibility: hidden;}
+                     50%{visibility:hidden;}
+                     75%{visibility:visible;}
+                     100%{visibility:hidden;}
+
+
+                 }
+                 @keyframes slide4{
+                     0%{visibility:hidden;}
+                     25%{visibility: hidden;}
+                     50%{visibility:hidden;}
+                     75%{visibility:hidden;}
+                     100%{visibility:visible;}
+
+
+                 }
+                 @keyframes zoom-out {
+                 100%{width:115%;}
+                 }
+
+
+/*OFFER SECTION*/
+.f{display:flex;
+   position:relative;
+   top:600px;
+   left:10px;}
+.free{position:relative;
+      background-color: #d2f5e3;
+      padding:10px;
+      top:200px;
+      height:300px;
+      width:50%;
+    /*  border: solid 2px black;*/
+      margin:0 10px 0 20px;
+      display:inline-block;
+      }
+.title{width:400px;
+       color:black;
+       z-index:2;}
+.image{}
+.image img{position:absolute;
+            right:5px;
+            top:0;
+            height:295px;
+            z-index:1;
+            width:65%
+       }
+
+       .free1{position:relative;
+
+             padding:10px;
+             top:200px;
+             height:300px;
+             width:50%;
+             /*border: solid 2px black;*/
+             margin:0 10px 0 10px;
+
+             }
+       .title1{width:90px;
+              z-index:2;
+              float:right;}
+       .image1{}
+       .image1 img{position:absolute;
+                   left:0;
+                   top:0;
+                   height:295px;
+                   z-index:1;
+                   width:50%
+                   float:left;
+              }
+/*DOG CATEGORIES*/
+.d { position:relative;
+     top:900px;}
+.d h1{text-align:center;}
+.d hr{width: 550px;
+      background-color: #fdb827;
+      height:5px;
+  position:relative;
+  left:400px;}
+
+.A{position:absolute;
+       top:350px;
+       left:100px;
+       text-decoration: none;
+       font-size: 20px;
+       font-style:bold;}
+
+.B{position:absolute;
+       top:220px;
+       left:40px;
+       text-decoration: none;
+       font-size: 20px;
+       font-style:bold;}
+
+.rowd1 {border-radius: 10px;
+      height:400px;
+      width:320px;
+      background-color: #e6e6e6;
+      position:absolute;
+      left:320px;
+      top:100px;
+      }
+.rowd1 a img { position:absolute;
+               margin:10px 10px 10px 10px;
+          height:300px;
+          width:300px;
+        }
+        a img:hover{ position: relative;
+                     top: 5px;
+                   /*background:#34626c;
+                 opacity: 0.5;*/}
+
+
+        .rowd2 {border-radius: 10px;
+              height:400px;
+              width:320px;
+              background-color: #e6e6e6;
+              position:absolute;
+              left:700px;
+              top:100px;
+              }
+        .rowd2 a img { position:absolute;
+                       margin:10px 10px 10px 10px;
+                  height:300px;
+                  width:300px;
+                }
+
+.rowd3 {border-radius: 10px;
+                      height:300px;
+                      width:210px;
+                      background-color: #e6e6e6;
+                      position:absolute;
+                      left:340px;
+                      top:520px;
+                      }
+.rowd3 a img { position:absolute;
+               margin:10px 10px 10px 10px;
+               height:200px;
+               width:190px;
+                        }
+                        .rowd4 {border-radius: 10px;
+                                              height:300px;
+                                              width:210px;
+                                              background-color: #e6e6e6;
+                                              position:absolute;
+                                              left:570px;
+                                              top:520px;
+                                              }
+                        .rowd4 a img { position:absolute;
+                                       margin:10px 10px 10px 10px;
+                                       height:200px;
+                                       width:190px;
+                                                }
+                                                .rowd5 {border-radius: 10px;
+                                                                      height:300px;
+                                                                      width:210px;
+                                                                      background-color: #e6e6e6;
+                                                                      position:absolute;
+                                                                      left:800px;
+                                                                      top:520px;
+                                                                      }
+                                                .rowd5 a img { position:absolute;
+                                                               margin:10px 10px 10px 10px;
+                                                               height:200px;
+                                                               width:190px;
+                                                                        }
+                                                                        .rowd6 {border-radius: 10px;
+                                                                                              height:300px;
+                                                                                              width:210px;
+                                                                                              background-color: #e6e6e6;
+                                                                                              position:absolute;
+                                                                                              left:340px;
+                                                                                              top:830px;
+                                                                                              }
+                                                                        .rowd6 a img { position:absolute;
+                                                                                     margin:10px 10px 10px 10px;
+                                                                                       height:200px;
+                                                                                       width:190px;
+                                                                                                }
+                                                                                                .rowd7 {border-radius: 10px;
+                                                                                                                      height:300px;
+                                                                                                                      width:210px;
+                                                                                                                      background-color: #e6e6e6;
+                                                                                                                      position:absolute;
+                                                                                                                      left:570px;
+                                                                                                                      top:830px;
+                                                                                                                      }
+                                                                                                .rowd7 a img { position:absolute;
+                                                                                                               margin:10px 10px 10px 10px;
+                                                                                                               height:200px;
+                                                                                                               width:190px;
+                                                                                                                        }
+                                                                                                                        .rowd8 {border-radius: 10px;
+                                                                                                                                              height:300px;
+                                                                                                                                              width:210px;
+                                                                                                                                              background-color: #e6e6e6;
+                                                                                                                                              position:absolute;
+                                                                                                                                              left:800px;
+                                                                                                                                              top:830px;
+                                                                                                                                              }
+                                                                                                                        .rowd8 a img { position:absolute;
+                                                                                                                                       margin:10px 10px 10px 10px;
+                                                                                                                                       height:200px;
+                                                                                                                                       width:190px;
+                                                                                                                                 width:190px;
+/*3 IMAGES SECTION*/                                                                                                                                                 }
+.row2{height:80%;
+     width:100%;
+     position:absolute;
+     top:1950px;
+     margin-top:400px;}
+.col-1{display:inline-block;
+       background-image: url(https://media.gettyimages.com/photos/kitten-sitting-on-dog-picture-id979081604?k=6&m=979081604&s=612x612&w=0&h=jNkC0wcvzkvINPWS1hN9W1ns1pjyXiKpsfM6DPCqhlc=);
+       background-size: cover;
+       height:80%;
+       width:33.33%;}
+.col-3{display:inline-block;
+       background-image: url(https://media.gettyimages.com/photos/dog-and-cat-picture-id184920565?k=6&m=184920565&s=612x612&w=0&h=V8omKcEsm3aPUhALW2hjpVwF_kVH-7-yDcZekd20F7E=);
+       background-size: cover;
+       height:80%;
+       width:33.33%;
+       position:absolute;
+       top:0px;
+       left:66.66%;}
+.col-2{display:inline-block;
+       background-image: url(https://media.gettyimages.com/photos/dog-and-cat-picture-id151350785?k=6&m=151350785&s=612x612&w=0&h=AwCYGt4SLvXKSB0p8TtVq1tzur-5nG5pb-5QUBzD7lE=);
+       background-size: cover;
+       height:80%;
+       width:33.33%;
+       position:absolute;
+       top:0px;
+       left:33.33%;
+          }
+
+
+
+/*CAT CATEGORIES*/
+.cat { position:relative;
+     top:2490px;}
+.cat h1{text-align:center;}
+.cat hr{width: 550px;
+background-color: #16a596;
+height:5px;
+position:relative;
+left:400px;}
+.rowd11 {border-radius: 10px;
+      height:400px;
+      width:320px;
+      background-color: #e6e6e6;
+      position:absolute;
+      left:320px;
+      top:530px;
+      }
+.rowd11 a img { position:absolute;
+               margin:10px 10px 10px 10px;
+          height:300px;
+          width:300px;
+        }
+        a img:hover{ position: relative;
+                     top: 5px;
+                   /*background:#34626c;
+                 opacity: 0.5;*/}
+
+
+        .rowd22 {border-radius: 10px;
+              height:400px;
+              width:320px;
+              background-color: #e6e6e6;
+              position:absolute;
+              left:700px;
+              top:530px;
+              }
+        .rowd22 a img { position:absolute;
+                       margin:10px 10px 10px 10px;
+                  height:300px;
+                  width:300px;
+                }
+            .cat .A{position:absolute;
+                  top:320px;
+                  left:70px;
+                  text-decoration: none;
+                  font-size: 20px;
+                  font-style:bold;}
+
+/*CREATIVE BOXES*/
+.row111{height:80%;
+      width:100%;
+      position:absolute;
+      top:3850px;
+      }
+.row111 .col-11{height:60%;
+              width:50%;
+              position:absolute;
+              left:20%;
+              border:5px solid black;
+              display:inline-block;
+              background-image:url(https://media.gettyimages.com/photos/time-to-play-picture-id173908793?k=6&m=173908793&s=612x612&w=0&h=-Tve7aM0o_zdMfh6_K7TZ417cgh3h3vKtrKtuc2KzC4=);
+              z-index:1;
+              }
+.row111 .col-12 {display:inline-block;
+               border:5px double black;
+               height:90%;
+               width:30%;
+               position:absolute;
+               left:65%;
+               top:100px;
+               z-index:0;
+             }
+.row111 .col-12 h1{display:inline-block;
+                 width:50%;
+                 margin:20px 10px 40px 20px;
+                 position:absolute;
+                 left:30%;
+
+                 font-size:40px;
+                 letter-spacing: 3px;
+                 word-spacing:10px;}
+.row111 .col-12 p{z-index:0;
+                position:absolute;
+                left:17%;
+                top:40%;
+                right:5%;
+                font-size:20px;
+                line-height:150%;
+
+                }
+.row111 .col-12 .intro{width:80%;
+                     height:50%;
+                     }
+.row111 .col-13{display:inline-block;
+             border:5px double black;
+             height:70%;
+             width:40%;
+             top:400px;
+             position:absolute;
+             z-index:0;
+             left:20%;}
+
+.row111 .col-13 p{z-index:0;
+                margin:20px 70px 40px 30px;
+                left:20%;
+                font-size:20px;
+                width:70%;
+                position:absolute;
+                top:20%;
+                left:3%;
+                word-spacing:10px;
+                 padding:20px;}
+
+.row111 .col-14{height:60%;
+                width:40%;
+              top:500px;
+              position:absolute;
+              left:50%;
+              background-image:url(https://media.gettyimages.com/photos/no-one-can-touch-him-picture-id157610291?k=6&m=157610291&s=612x612&w=0&h=RxtAb05hG7S0-UCr5lAP28L1zTuOZ-tZn1aH-1ods0U=);
+              border:5px solid black;
+              z-index:1;
+             }
+.row111 .col-15{width:100%;
+              height:50%;
+              background-color:#fcf876;
+              z-index:-1;}
+.row111 .col-16{width:100%;
+              height:50%;
+              position:absolute;
+              top:500px;
+              background-color:#b9ac92;
+              z-index:-1;}
+/*TREAT BARS*/
+.treat-bars{margin:90px 10px  10px 30px;
+  position:absolute;
+  top:1000px;             }
+.treat-bars h1{align-items:center;
+               position:absolute;
+               top:3650px;
+               left:600px;
+                }
+          }
+ .treats-bars hr{width: 550px;
+background-color: #16a596;
+height:7px;
+position:absolute;
+top:3600px;
+left:400px;        }
+.treat-bars .r{display:flex;
+  margin-top:10px;
+  margin-bottom: 60px;
+  position:relative;
+  top:3700px;
+  width:100%;
+  }
+.treat-bars .r .col-4 img{
+                width:100%;
+                height:300px;}
+.treat-bars .r .col-4 img:hover{background:#34626c;
+opacity: 0.5;}
+.col-4{margin:20px 20px 50px 20px;
+       width:300px;
+       height:460px;
+       background-color:#e6e6e6;
+       align-items: center;
+       padding:10px;
+       border-radius:10px;
+       }
+       input{padding:5px;
+             background-color:black;
+             color:white;
+             width:250px;}
+
+/*GROOMING */
+.grooming{margin:90px 10px  10px 30px;
+         position:relative;
+         top:1250px;             }
+.grooming h1{align-items:center;
+               position:absolute;
+               top:3650px;
+               left:460px;
+                }
+          }
+ hr{width: 550px;
+background-color: #16a596;
+height:7px;
+position:absolute;
+top:4500px;
+left:400px;        }
+.grooming .r{display:flex;
+  margin-top:10px;
+  margin-bottom: 60px;
+  position:relative;
+  top:3700px;
+  width:100%;
+  }
+.grooming .r .col-4 img{
+                width:100%;
+                height:300px;}
+.grooming .r .col-4 img:hover{background:#34626c;
+opacity: 0.5;}
+
+
+
+/*BRANDS*/
+.brands img {width:205px;
+                   height:205px;
+                   margin:20px;}
+.brands{position:relative;
+  top:4890px;
+  left:5px;
+ }
+ .brands h1{text-align: center;}
+ .brands hr{width: 550px;
+ background-color: #16a596;
+ height:5px;
+ position:relative;
+ left:400px;
+         }
+/*BLOG SECTION*/
+
+.blogs{position:absolute;
+        top:6400px;
+       }
+.blog1{display:flex;
+       width:650px;
+       padding:5px;
+       background-color:#e6e6e6;
+       position:relative;
+       left:10px;
+       border-radius: 10px;}
+
+.blog1 .text-section{padding:3px;
+                     margin-left:5px;}
+.blog1 a{color:#153e90;
+         font-size:20px;
+          text-decoration:none;}
+          .blog1 a:hover{color:#16697a;
+                   font-size:20px;
+                    text-decoration:none;
+                  }
+
+          .blog2{display:flex;
+                 width:650px;
+                 height:250px;
+                 padding:5px;
+                 background-color:#e6e6e6;
+                 position:relative;
+                 left:700px;
+                 bottom:250px;
+                 border-radius: 10px;}
+
+
+          .blog2 .text-section{padding:3px;
+                               margin-left:5px;}
+          .blog2 a{color:#153e90;
+                   font-size:20px;
+                    text-decoration:none;}
+          .blog2 img{height:240px;
+                     width:290px;}
+
+
+          .blogs p{font-size: 13px;}
+/*FOOTER STYLING*/
+footer{position:absolute;
+        top:6750px;
+        }
+.inner{ height:50%;
+        width:100%;
+        position:absolute;
+        background-color:#9ad3bc;
+        display:flex;
+        }
+.list1{display:inline-block;
+       position:absolute;
+       left:300px;
+       bottom:20px;
+       width:30px;
+      }
+.list2{display:inline-block;
+       position:absolute;
+       left:600px;
+       bottom:20px;
+       width:30px;
+
+       }
+.list3{display:inline-block;
+       position:absolute;
+       left:900px;
+       bottom:20px;
+       width:30px;
+
+          }
+
+
+
+.row4{width:100%;
+        background:#000;
+        color:#8a8a8a;
+        font-size:14px;
+        padding:60px 0 20px;}
+.row4 .row{display:flex;
+             }
+.row4 p{color:#8a8a8a;
+        margin-left:10px;
+        margin-right:40px;
+        }
+.row4 h3{color:white;
+         margin-bottom:20px;}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+   min-width:250px;
+   margin-bottom:20px;
+}
+.footer-col-1{flex-basis: 30%;
+              color:white;
+}
+.footer-col-1 h3{position:relative;
+                 left:60px;}
+.footer-col-1 p{position:relative;
+                 left:50px;}
+.footer-col-2{position:relative;
+              left:100px;}
+.footer-col-3{position:relative;
+              left:200px;}
+.footer-col-2, .footer-col-3{flex-basis:12%;
+                             text-align:left;}
+.footer-col-2 li a{text-decoration:none;
+                   color:#8a8a8a;
+                   }
+ .footer-col-3 li a{text-decoration:none;
+                    color:#8a8a8a;}
+.icon{display:flex;}
+.row4 hr{
+           border: none;
+           background: #b5b5b5;
+           height:1px;
+           margin:20px ;
+}
+.row4 .copyright{text-align:center;}
+/*EXTRA PART*/
+.extra{position:relative;
+       top:5900px;
+       display:flex;
+       padding:5px;}
+.extra img{width:150px;
+            height:150px;}
+.text-part p{font-size:13px;}
